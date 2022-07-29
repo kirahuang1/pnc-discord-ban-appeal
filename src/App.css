@@ -18,6 +18,10 @@
   color: white;
 }
 
+.App-link {
+  color: #61dafb;
+}
+
 .textarea {
   color: #dcddde !important;
 
@@ -57,13 +61,16 @@ body {
   text-align: justify;
 }
 .button {
-  background-color: #5865F2 !important;
+  background-color: #7289da !important;
   width: 15em;
   color: white !important;
+  position: fixed; /* or absolute */
+  left: 12%;
+  
 }
 
 button {
-  background-color: #5865F2 !important;
+  background-color: #7289da !important;
   width: 10em;
 }
 form button {
@@ -92,4 +99,5 @@ form button {
 
 h1 {
   width: 100%;
+  text-shadow: 1px 1px black;
 }
